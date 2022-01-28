@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla&family=Roboto&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+aside{
+    font-family: 'Roboto';
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    margin-left: 0px;
+    padding-top: 8px;
+    padding-left: 2%;
+    background-color: #62c79d;
+    position: absolute;
+}
+header{
+    font-family: 'Roboto';
+    width: 100%;
+    height: 70px;
+    margin-left: 0px;
+    padding-left: 2%;
+    padding-bottom: 15px;
+    background-color: #2f6de0;
+   top:35px;
+    position: relative; 
+}
+body{
+    font-family: 'Karla';
+}
+h1{
+    font-size: 27px;
+    font-weight: lighter;
+    color:white;
+    display: inline;
+    position: relative; 
+    margin-left: 20px;
+    bottom: 25px;
+
+}
+.logo{
+    height: 60px;
+    margin-top: 3px;
+}
+nav{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    top: 71px;
+    right: 0%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ul{
+    text-align: right;
+    padding-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    display: inline-block;
+    margin:1%;
+    text-decoration: none;
+}
+section{
+    padding-left: calc(50%-416.13px);
+}
+article{
+    display: inline-block;
+}
+.card{
+    top:200px;
+    width: 27%;
+    margin-left:40px;
+    position:relative;
+    display: inline-block;
+     margin-bottom: 50px;
+}
+.card-header.imgsuper1{
+    border-radius: 17px 17px 0px 0px;
+    display: block;
+    height: 180px;
+    top: 500px;
+    background-size: cover;
+    background-image: url("../img/bg-batman.jpg");
+}
+.card-header.imgsuper2{
+    top:100px;
+    border-radius: 17px 17px 0px 0px;
+    display: block;
+    height: 180px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url("../img/harley-quinn-back.png");
+}
+.card-header.imgsuper3{
+    margin-top:100px;
+    border-radius: 17px 17px 0px 0px;
+    display: block;
+    height: 180px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url("../img/bg-superman.jpg");
+}
+.card-body{
+    background-color: #f3f3f3;
+    height: 340px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    padding: 60px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+    font-size: 30px;
+}
+.fa-plus-circle{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: #00669f;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.fa-plus-circle:hover{
+    color: #001d2d;
+}
+
+.perfilH{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/harley-quinn-front.png");
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+.perfilB{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/batman.jpg");
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+.perfilS{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/superman.jpg");
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 120px;
+}
+.button{
+    background-color: #00669f;
+    border-radius: 7px;
+    position: relative;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+footer{
+    background-color: #2f6de0;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    height: 40px;
+    padding-top:7px;
+    width: 100%;
+    position: fixed;
+    
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tienda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!!!</aside>
+    <header>
+        <img 
+            class="logo"
+            src="./img/logo-emarket.png"
+            id="logo-emarket"
+            alt="logo-emarket"/>
+        <h1>Super Tienda</h1>
+    </header>
+    <main>
+        <form>
+            <h2>Contacto</h2>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+            <input type="email" name="email"  id="email" placeholder="Correo electrónico">
+            <textarea name="comentario" id="comentario">Deje su comentario aquí</textarea>
+            <input class="boton boton-gris-chico " type="reset" value="Borrar"/>
+            <input class="boton boton-cyan-chico " type="button" value="Enviar" onclick="window.location.href='../emarket/enviado.html'"/>
+        </form>
+    </main>
+    <footer>
+        <p id="derechos">Todos los derechos reservados a FronEnd1 - 2021 </p>
+    </footer>
+</body>
+</html>

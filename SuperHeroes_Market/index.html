@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tienda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!!!</aside>
+    <header>
+        <img 
+            class="logo"
+            src="./img/logo-emarket.png"
+            id="logo-emarket"
+            alt="logo-emarket"/>
+        <h1>Super Tienda</h1>
+        
+    </header>
+    <main>
+        <br><br>
+        <form class="login-form">
+            
+            <h2>Login</h2>
+            <input type="email" name="email" placeholder="Usuario"  onemptied="setCustomValidity ('Por favor, ingrese un mail válido')" required/>
+            <input type="password" name="password" placeholder="Contraseña" onemptied="setCustomValidity ('La contraseña es incorrecta')"required/>
+            <input class= "boton boton-cyan" type="submit" value="Entrar" onclick="window.location.href='./superhero.html'" />
+            <br><br>
+            <span>¿No estás registrado?<a href="./index-registro.html">Registrarme</a></span>
+            <br>
+            <span>¿Tenés dudas o sugerencias?<a href="./contacto.html">Contactanos</a></span>
+        </form>
+    </form>
+    <button type="button" class="botoncito" onclick="window.location.href='../index.html'"></button>
+    <br><br>
+</main>
+<footer>
+    <p id="derechos">Todos los derechos reservados a FronEnd1 - 2021 </p>
+</footer>
+</body>
+</html>

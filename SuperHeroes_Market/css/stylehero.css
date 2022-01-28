@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+aside{
+    font-family: 'Roboto';
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    margin-left: 0px;
+    padding-top: 8px;
+    padding-left: 2%;
+    background-color: #62c79d;
+    position: absolute;
+}
+header{
+    font-family: 'Roboto';
+    width: 100%;
+    height: 70px;
+    margin-left: 0px;
+    padding-left: 2%;
+    padding-bottom: 15px;
+    background-color: #2f6de0;
+    top:35px;
+    position: relative; 
+}
+h1{
+    font-size: 50px;
+    color:white;
+    display: inline;
+    position: relative; 
+    top:8px;
+}
+body{
+    font-family:'Roboto';
+}
+section{
+    height: 700px;
+    width: 100%;
+}
+.batman{
+    background-image: url("../img/bg-batman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:35px;
+    padding-top: 180px; 
+    padding-bottom: 50px;
+   
+}
+.superman{
+    background-image: url("../img/bg-superman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:35px;
+    height: 670px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+    z-index: 3;
+}
+.harley{
+    background-image: url("../img/harley_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:35px;
+    height: 670px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+    z-index: 3;
+}
+.cuerpo-cd{
+    background-color: #f3f3f3;
+    width:40%;
+    text-align: center;
+    margin: 0 auto;
+    top:-20px;
+    border-radius: 40px;
+    position: relative;
+    height: 370px;
+    padding-top: 100px;
+    z-index: 30;
+}
+.fotoperfil1{
+    background-image: url("../img/batman.jpg");
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 38%;
+    position: absolute;
+    top:5px;
+}
+.fotoperfil2{
+    background-image: url("../img/harley-quinn-front.png");
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 38%;
+    position: absolute;
+    top:5px;
+}.fotoperfil3{
+    background-image: url("../img/superman.jpg");
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 38%;
+    position: absolute;
+    top:5px;
+}
+.button{
+    background-color: #2c0187;
+    border-radius: 0 0 45px 45px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    top: 35px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.titulocard{
+   
+    padding: 60px 20px 0 20px;
+}
+.textocard{
+    
+    padding: 20px 20px 0 20px;
+}
+a{text-decoration: none;}
+footer{
+    background-color: #2f6de0;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    padding-top:7px;
+    width: 100%;
+    z-index: 40;
+    position: fixed;
+    
+}
