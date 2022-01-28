@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+:root {
+  --negro: #000000;
+  --naranja: #f0a83e;
+  --back: #e5e5e5;
+  --texto: #ffff;
+}
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ color:var(--texto)
+}
+body{
+    background: var(--back);
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+aside{
+    background: var(--negro);
+    padding: 0.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.5rem;
+}
+aside.nav ul{
+    display:flex ;
+    justify-content: space-between;   
+}
+select{
+    border: none;
+    background-color: var(--negro);
+} 
+header{
+    background: var(--naranja);
+    padding: 0.5rem 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0 , 0, 0, 0.25);
+    height: 6rem;
+}
+.header_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:7px;
+}
+span{
+    color: var(--negro)
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1rem;
+    font-size: 1.2rem;
+}
+.shopping{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+main{
+    padding: 35px 0;
+    min-height: calc(100vh - 6rem - 8rem);
+  
+}
+main.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     
+}
+main .card-gato{
+    background: url("../img/Cat-background.png");
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    display:inline-block ;
+    height: 300px;
+    width: 400px;
+    margin:5rem 0 2rem 12rem;
+    text-align: left;
+    
+}
+main .comida-perro{
+    background: url("../img/Dog-Background.png");
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    margin-left: 12rem;
+    text-align:right; 
+}
+h5{
+    background-color: var(--naranja);
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 200;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    padding-top: 5px;
+}
+.descuento{
+    margin-left: 52%;
+}
+.suscribe{
+    background-color: var(--naranja);
+    display: flex;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;    
+}
+.suscribe.h3{
+    text-align: center; 
+}
+footer{
+   
+    background-color: var(--negro);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}

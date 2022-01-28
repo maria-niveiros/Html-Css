@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😺 Front Cat & Dog 🐶</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Rock+Salt&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <aside>Grandes ofertas en comederos
+        <form action="/aside" method="GET">
+        <div class=config>
+        <select name="idioma">
+            <option value="0">Español</option>
+            <option value="1">Inglés</option>
+            <option value="2">Francés</option>
+        </select>  
+        <select name="moneda">
+            <option value="0">ARG$</option>
+            <option value="1">USD</option>
+            <option value="2">EUR</option>
+        </select>
+        </div>
+        </form>
+    </aside>
+    <header>
+        <div class=header_logo>
+            <img src="./img/Cat.svg" alt="Logo Gato">
+            <h1><span>Front</span>Cat & Dog</h1>
+            <img src="./img/Dog.svg" alt="Logo Perro">
+        </div>
+        <div class=menu>
+        <i class="fas fa-paw"></i>Categorias
+        <i class="fas fa-paw"></i>Pets
+        <i class="fas fa-paw"></i>Sobre Nosotros
+        <i class="fas fa-paw"></i>Contáctanos
+        </div>
+        <div class=shopping>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-shopping-basket"></i>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="card-gato">
+                <h3>Comida de gato</h3>
+                <h5>30% de descuento</h5>
+            </div>
+            <div class="comida-perro">
+                <h3>Comida de perro</h3>
+                <h5 class="descuento">30% de descuento</h5> 
+            </div>
+            <div class="suscribe">
+                <h3>Suscríbete para más novedades</h3>
+                <form action="/suscribe">
+                <input type="email" name="email" id=email>
+                <label for="email"> Suscribirme </label>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>Todos los derechos reservados Front End</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
